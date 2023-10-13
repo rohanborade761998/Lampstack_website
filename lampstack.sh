@@ -225,6 +225,8 @@ print_color "green" "        Installing HTTPD Webserver        "
 print_color "green" "=========================================="
 
 sudo yum install -y httpd php php-mysql
+#          OR
+#sudo yum install -y httpd php php-mysqlnd
 
 print_color "green" "=========================================="
 print_color "green" "   Configuring FirewallD rules for httpd  "

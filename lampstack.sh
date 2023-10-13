@@ -262,7 +262,7 @@ print_color "green" "       Clonning Project from Github       "
 print_color "green" "=========================================="
 
 sudo yum install -y git
-sudo git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
+sudo git clone https://github.com/rohanborade761998/Lampstack_website.git /var/www/html/
 
 #___Configuring webserver to use database installed in lcoalhost____
 sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php

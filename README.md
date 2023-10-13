@@ -72,6 +72,9 @@ mysql < db-load-script.sql
 
 ```
 sudo yum install -y httpd php php-mysql
+#      OR
+#sudo yum install -y httpd php php-mysqlnd
+
 sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
 sudo firewall-cmd --reload
 ```
